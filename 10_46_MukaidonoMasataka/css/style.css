@@ -1,0 +1,262 @@
+@charset "utf-8";
+
+/* タグに指定ゾーン */
+html{
+   font-size: 62.5%;
+   line-height: 1.5;
+   color:#fff;
+}
+
+/* img{
+    width: 100%;
+} */
+
+/* p{
+
+} */
+header{
+    width: 960px;
+    margin: auto;
+    background-color: #000;
+}
+input:focus{
+    background: #fff2c7;
+}
+.flex{
+    display: flex;
+}
+.white{
+    color: #fff;
+}
+.head_title_L{
+    padding: 15px 0;
+}
+.head_title_R{
+    width: 100px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.stage_title{
+    color: #ccc;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 1.75;
+    text-align: center;
+    padding:5px 0;
+    font-family: "游明朝", YuMincho;
+}
+.red{
+    font-size: 1.8rem;
+    color:#d46868;
+}
+.font-s{
+    font-size: 1.2rem;
+}
+.font-m{
+    font-size: 1.6rem;
+}
+.font-l{
+    font-size: 2rem;
+}
+.bold{
+    font-weight: bold;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.form_outer{
+    border: 0px solid rgb(25, 0, 255);
+    background-color:rgba(255, 255, 255, 0.2);
+    width: 960px;
+    /* height: 740px; */
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+}
+.form_outer_com{
+    border: 2px solid rgb(255, 255, 255, 0.4);
+    background-color:rgba(255, 255, 255, 0.2);
+    width: 960px;
+    /* height: 740px; */
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+}
+.form{
+    font-size: 1.6rem;
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+}
+.title-outer{
+    display: flex;
+    margin: 10px 0;
+}
+.block-red{
+    width: 20px;
+    height: 35px;
+    background-color: rgba(185, 0, 0, 0.3);
+    margin: 0 20px 0 0;
+}
+.block-title{
+    color: #fff;
+}
+table,td,tr,th{
+    border: #000 1px solid;
+    /* padding: 10px 20px; */
+    color: #ccc;
+}
+.sukima{
+    height: 15px;
+}
+.pdd1020{
+        padding: 10px 20px;
+}
+.pdd0510{
+    padding: 5px 10px;
+}
+table{
+    width: 900px;
+}
+.ticket_tbl{
+    table-layout: fixed;
+}
+/* input{
+    padding: 5px;
+} */
+.input-s{
+    width: 25%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.input-m{
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.input-l{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tb-left{
+    background-color: rgba(0, 102, 255, 0.2);
+    font-weight: bold;
+}
+.tb-right{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+.month{
+    text-align: center;
+    color: #ccc;
+    width: 10%;
+    border: 1px solid #000;
+}
+.day{
+    text-align: center;
+    /* width: 9.09%; */
+    /* border: 1px solid #000; */
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.redday{
+    color: #d46868;
+}
+.tikect{
+    text-align: center;
+}
+.tbbtm{
+    margin: 10px 0 0 0;
+}
+.btn{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+.pre{
+    background-color: #b4b376;
+}
+.ichi{
+    background-color: #b47676;
+}
+.kaga{
+    background-color: #7687b4;
+}
+.non{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.cast{
+    font-size: 1.2rem;
+    float: right;
+    margin: 10px 0 0 0;
+    color: #fff;
+}
+.ttl{
+    margin: 10px 0 0 0;
+    color: #fff;
+}
+.ttlcnt-outer{
+    display: table-cell;
+    width: 40px;
+    color: #000;
+    background-color: #fff;
+    margin: 0 5px 0 0;
+}
+.ttlchrg-outer{
+    display: table-cell;
+    width: 80px;
+    color: #000;
+    background-color: #fff;
+    margin: 0 0 0 5px;
+}
+.uketsuke{
+    font-size: 5rem;
+    margin: 10px;
+}
+.chuui{
+    font-size:2rem;
+    color: #fff;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+.footer{
+    margin-left: auto;
+}
+.kanri{
+    background-color: #666666;
+}
+.result_outer{
+    border: 0px solid rgb(25, 0, 255);
+    background-color:rgba(255, 255, 255, 0.2);
+    width: auto;
+    /* height: 740px; */
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+}
+#table_re{
+    width: auto;
+}
+.tktr{
+    background-color: rgb(108, 62, 62);
+}
+.bgbk{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+body{
+    background-color: #000;
+    background-image: url(../img/mainbkg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "游ゴシック体 Medium",Yu Gothic !important;
+    /* font-family: "游ゴシック体 Medium", "YuGothic Medium", "Roboto"; */
+}
